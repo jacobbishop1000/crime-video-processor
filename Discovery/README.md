@@ -4,3 +4,4 @@ For some undisclosed reason Isaac did not attend the meeting despite prior accep
  # Files Explanation
 Minutes.md - An account of when and how we met with our client, who was the minute recorder, and raw minutes of the meeting.
 Screenshot.png - A picture of our Zoom meeting
+Notes.md - Notes Eric and Jacob took during the meeting
