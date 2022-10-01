@@ -1,11 +1,11 @@
 ## Discovery Meeting Notes
 # Introduction
 - Blaine
-    15 yr experience
-    Going for 6th degree
-    Day job at stackoverflow
-    Available as resource
-    Would like to keep current Teck-stack
+    - 15 yr experience
+    - Going for 6th degree
+    - Day job at stackoverflow
+    - Available as resource
+    - Would like to keep current Teck-stack
 - Cornelius
     Self-confessed tech nerd
     CEO of Chuqlabs
