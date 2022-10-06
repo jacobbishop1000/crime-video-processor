@@ -1,0 +1,7 @@
+- Meeting start time: 8:10AM
+- Meeting end time: 9:15AM
+- Location/medium: 3 in person in class, and 1 over Zoom
+- Present (who was present): Merghani, Eric, Brendan, Jacob
+- Minute recorder: Jacob
+- Topics discussed: Design day assignments, demo of Crime Miner, design day meetings, presentation
+- Things clarified: What the Crime Miner looks like, expectation of customer-facing interface, splitting of tasks in preparation for other design day meetings
