@@ -1,23 +1,3 @@
-
-    Prepare a document under the Design folder of your main GitHub repository called BusinessRequirements.md
-    Have a proper, readable markdown formatting in the document.
-    
-        Check https://www.markdowntutorial.com/Links to an external site. for inspiration (or search for one yourself).
-    This document will have a header called Business Requirements.
-    
-    The remaining of the content will be the business requirements, each in one bullet point with:
-        An ID such as BR1, BR2, etc for each business requirement to refer later in other documents.
-        One paragraph of explanation why do you think this is one of the business requirements.
-        
-    Check the Business analyst and establishing the business requirements slides and notes again to remind your team what a business requirement is.
-    Find the core business requirements.
-        Check the Previously in CS495/498 slides and notes for a hands-on business requirement exercise on a real project.
-        Communicate with your client to clarify if you are not sure.
-        Communicate with your mentor to clarify if you are not sure.
-        
-    Submit a link to BusinessRequirements.md file.
-        Your submission should be something like: https://github.com/{teamMemberName}/{projectName}/blob/master/Design/BusinessRequirements.md
-        
 # Business Requirements
 ## Chuqlabs CrimeMiner: Video Processor
 ### Summary:
