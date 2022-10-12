@@ -1,4 +1,4 @@
-#Chuqlab CrimeMiner Project: Video Processor
+# Chuqlab CrimeMiner Project: Video Processor
 
 # Project Team Members
 Jacob Bishop, Merghani Hag Elnour, Eric J Perez, Isaac McKinney, and Brendan May
