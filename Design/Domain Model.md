@@ -1,7 +1,7 @@
 # Chuqlabs CrimeMiner: Video Processor
 ### Domain Model
 
-![Domain Model](https://github.com/jacobbishop1000/crime-video-processor/blob/48ba623ccd863f078540b45dee50f74797ebe72c/Design/resources/Model(updated).png)
+![Domain Model](https://github.com/jacobbishop1000/crime-video-processor/blob/f2b32a4e6d82fb5a5fa3f3806bd10c247fef9ea9/Design/resources/Model(updated).png)
 
 ### Summary: 
  - There are users and there is a website.
