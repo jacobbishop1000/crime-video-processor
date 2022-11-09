@@ -60,6 +60,12 @@ Jest Configuration
     - contains settings for jest test suite
 
 ## How to Test and Interpret the Results
-- run `npm install` to install dependencies, and run `npm test` to run Jest test suite
-- if Jest gives errors, make sure your version of node is >= 19.0.0
-- The terminal output displays test results with visual aids (green check marks, red x's, etc.)
+
+1. Open a new terminal and move to the folder **'{project root}/video-crime-miner/node-video-crime-miner/**
+
+2. make sure to have run **'npm install'** in this folder
+
+3. run **'npm test'** to run jest tests
+    > if Jest gives errors, make sure your version of node is >= 19.0.0
+
+4. The terminal output displays test results with visual aids (green check marks, red x's, etc.)
