@@ -21,6 +21,13 @@ Tech stack is:
 - No required IDE
 - Need a terminal to use git, npm
 
+## Cloning project and initial configurations
+
+1. In your terminal, move to desired folder location for the project. 
+2. run **'git clone https://github.com/jacobbishop1000/video-crime-miner'**
+3. move into the folder **'{project root}/video-crime-miner/node-video-crime-miner/'** and run **'npm install'**
+3. move into the folder **'{project root}/video-crime-miner/angular-video-crime-miner/'** and run **'npm install'**
+
 ## Folder Structure
 
 - **angular-video-crime-miner/**: contains configuration files for angular/typescript
