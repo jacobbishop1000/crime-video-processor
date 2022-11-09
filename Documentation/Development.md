@@ -40,8 +40,24 @@ Tech stack is:
 
 ## Important config files
 
-- tsconfig.json contains project configuration for TypeScript
-- jest.config.js contains settings for running test suite
+Node/Angular Configuration
+
+- **angular-video-crime-miner/package.json**
+    - contains build information (build parameters, dependencies) for Angular
+- **node-video-crime-miner/package.json**
+    - contains build information (build parameters, dependencies) for Node
+
+Typescript Configuration
+- **angular-video-crime-miner/tsconfig.json**
+    - contains TypeScript settings for Angular
+- **node-video-crime-miner/tsconfig.json**
+    - contains TypeScript settings for Node
+
+>*Both of these tsconfig files have additional tsconfig.spec.json and tsconfig.app.json. The contents of these files will be treated as if they were appended to the contents of tsconfig.json*
+
+Jest Configuration
+- **node-video-crime-miner/jest.config.js**
+    - contains settings for jest test suite
 
 ## How to Test and Interpret the Results
 - run `npm install` to install dependencies, and run `npm test` to run Jest test suite
