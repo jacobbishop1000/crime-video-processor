@@ -23,10 +23,20 @@ Tech stack is:
 
 ## Folder Structure
 
-- src has source code
-- node_packages contains node dependencies after npm install
-- test has Jest test suite
-- out folder contains compiled code from TypeScript to JavaScript
+- **angular-video-crime-miner/**: contains configuration files for angular/typescript
+    - **angular-video-crime-miner/node_modules/** contains node dependencies after npm install
+    - **angular-video-crime-miner/out/** folder contains compiled code from TypeScript to JavaScript
+    - **angular-video-crime-miner/src/**: source code for front-end site
+        - **angular-video-crime-miner/src/app/**:  html, scss, and angular scripts for each of the site modules
+- **node-video-crime-miner**: source code for aws node clients, also contains configuration files for node/typescript
+    - **node-video-crime-miner/cli/**: simple command line interface to interact with files in s3 buckets and handle jobs from rekognition
+    - **node-video-crime-miner/resources/**: contains a few sample files for testing uploads to s3 buckets and video analysis
+    - **node-video-crime-miner/src/**:
+        - **node-video-crime-miner/src/node/**: contains source code for creating and managing new clients for s3 and rekognition
+        - **node-video-crime-miner/src/video/**: contains source code for connecting video object in s3 bucket to rekognition client, managing SNS messages and SQS queues for tracking progress on video analysis, and collecting report of detected labels
+    - **node-video-crime-miner/test/**: contains the test files for s3, rekognition, sqs/sns client interaction
+    - **node-video-crime-miner/node_modules/** contains node dependencies after npm install
+    - **node-video-crime-miner/out/** folder contains compiled code from TypeScript to JavaScript
 
 ## Important config files
 
