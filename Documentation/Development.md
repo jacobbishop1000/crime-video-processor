@@ -6,7 +6,10 @@ Tech stack is:
 - Angular
 - Ionic
 - Node
-- AWS Rekognition
+- Amazon Rekognition
+- Amazon S3 Bucket
+- Amazon SQS
+- Amazon SNS
 - PostgreSQL
 
 ## Technologies Needed
