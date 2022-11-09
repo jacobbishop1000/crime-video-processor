@@ -19,8 +19,7 @@ Tech stack is:
 ## Required IDEs, Frameworks
 
 - No required IDE
-- Need a terminal to run the program
-- Using Angular framework
+- Need a terminal to use git, npm
 
 ## Folder Structure
 
