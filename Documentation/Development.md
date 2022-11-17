@@ -71,7 +71,7 @@ Jest Configuration
 
 ## How to Test and Interpret the Results
 
-1. Open a new terminal and move to the folder **'{project root}/video-crime-miner/node-video-crime-miner/**
+1. Open a new terminal and move to the folder **{project root}/video-crime-miner/node-video-crime-miner/**
 
 2. make sure to have run **'npm install'** in this folder
 
@@ -79,3 +79,19 @@ Jest Configuration
     > if Jest gives errors, make sure your version of node is >= 19.0.0
 
 4. The terminal output displays test results with visual aids (green check marks, red x's, etc.)
+
+## How to Replicate Via Docker
+
+1. Open a terminal and move to the folder **'{project root}/video-crime-miner/**. You should find a dockerfile there.
+
+2. Run the command **'docker build -t video-crime-miner .'** to build the image for the project.
+    >*Note: the -t flag value is just for a title. You can name it whatever you want, of course.*
+
+3. Navigate to the Docker Desktop application and view your images. You should find it built there. Click the **Run** button.
+
+4. In the window that pops up, click **Optional settings** and fill in three required environment variables with the following names:
+    >*REGION* is the AWS region you'll be accessing from
+    >*AWS_ACCESS_KEY_ID* is the AWS access key to use their services
+    >*AWS_SECRET_ACCESS_KEY* is the AWS secret access key to use their services
+
+5. Click **Run** and your video-crime-miner is now containerized in Docker.
