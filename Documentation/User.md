@@ -23,4 +23,5 @@
 6. if you go to the "Upload Files" tab, you have the option to add files from  your system to upload to our database.
 ![image](https://user-images.githubusercontent.com/87199787/206339367-33c6deae-f142-48d7-a8d0-68b81fcf0020.png)
 7. Head to the Icon that looks like a tag, once there it should show you a list of any cases you may have.
-![image](https://user-images.githubusercontent.com/87199787/206339452-03a9286c-7067-4180-b208-bb7ba60dadf9.png)
+![image](https://user-images.githubusercontent.com/87199787/206339452-03a9286c-7067-4180-b208-bb7ba60dadf9.png
+![image](https://user-images.githubusercontent.com/87199787/206340854-f01df8eb-ce06-4ae6-88e0-9f68631436f9.png)
