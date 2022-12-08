@@ -1,5 +1,10 @@
 # Deployment
 
+### Install Using npm
+ -npm install node-video-crime-miner
+
+![Screenshot 2022-12-07 223555](https://user-images.githubusercontent.com/65315435/206350576-9fe13e97-5a9e-4be0-9879-f1bce354abb1.jpg)
+
 #### Starting the Angular Client
 
 1. Move into **'{project root}/angular-video-crime-miner'** and run **'npm run start-site'**
@@ -10,7 +15,6 @@
 #### Stopping the Angular Client/Express Server
 
  To stop the Angular Client or the Express Server, terminate the process as its running in your terminal
-
 
 ## Deploying local postgresql database
 >*see Development.md for in depth walkthough of how to create and deploy the postgresql database*
