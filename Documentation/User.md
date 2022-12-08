@@ -13,7 +13,7 @@
 
 ## Iteration 2
 1. Open 2 terminals
-2.Navigate to **\video-crime-miner\node-video-crime-miner** - run **npm run refresh**. In the adjacent terminal navigate to **\video-crime-miner\angular-video-crime-miner** and run **npm run refresh**.
+2.Navigate to **\video-crime-miner\node-video-crime-miner** - run **npm run refresh**. In the adjacent terminal navigate to **\video-crime-miner\angular-video-crime-miner** and run **npm run start-site**.
 3. Go to a browser and in the search bar enter **http://localhost:4200/**, this will take you to the main application dashboard.
 ![image](https://user-images.githubusercontent.com/87199787/206324847-72519bf9-1450-4c9c-a920-0df85bdcbc6e.png)
 4. Head to the Box Icon on the left hand side to upload any searchable content!
