@@ -94,11 +94,11 @@ Jest Configuration
 
 3. add the following values to your .env file
 ` #Database
-DBHOST=video-crime-db.ctwaqu2tknqu.us-east-1.rds.amazonaws.com
+DBHOST=localhost
 DBUSER=postgres
 DB=video-crime-miner
 DBPORT=5432
-DBPASSWORD=Mpkx6TXt164zdFNFgp47`
+DBPASSWORD=password`
 
 ## How to Replicate Via Docker
 
