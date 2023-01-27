@@ -115,3 +115,9 @@ DBPASSWORD=password`
     >*AWS_SECRET_ACCESS_KEY* is the AWS secret access key to use their services
 
 5. Click **Run** and your video-crime-miner is now containerized in Docker.
+
+## Linting
+
+1. Open a new terminal and move to the folder **{project root}/video-crime-miner/node-video-crime-miner/**
+
+2. Execute command 'npm run lint', and your terminal should return any conflicts with the standard-with-typescript guide provided by the eslint module
