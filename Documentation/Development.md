@@ -12,6 +12,7 @@ Tech stack is:
 - Amazon Rekognition
 - Amazon S3 Bucket
 - Amazon SQS
+- CloudFront
 - Amazon SNS
 - PostgreSQL
 
