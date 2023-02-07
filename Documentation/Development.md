@@ -76,15 +76,22 @@ Jest Configuration
     - contains settings for jest test suite
 
 ## How to Test and Interpret the Results
-
+**For Express-Node**
 1. Open a new terminal and move to the folder **{project root}/video-crime-miner/node-video-crime-miner/**
 
 2. make sure to have run **'npm run build'** in this folder
 
-3. run **'npm run test'** to run jest tests
+3. run **'npm run test'** to run Jest tests
     > if Jest gives errors, make sure your version of node is >= 19.0.0
 
 4. The terminal output displays test results with visual aids (green check marks, red x's, etc.)
+
+**For Angular**
+1. Open a new terminal and move to the folder **{project root}/video-crime-miner/angular-video-crime-miner/**
+
+2. Run **'npm run test-site'** to run Karma tests
+
+3. Interpret results by seeing if Karma shows any errors inside the Chrome window that pops up
 
 ## Building a database
 
