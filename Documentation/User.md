@@ -56,9 +56,41 @@ Picture below is the video player when the page initially loads
 Picture below is the video player after clicking on the first detected label's timestamp, which matches the tag we chose in Step 10, 'Person'. Clicking on a new timestamp will seek out that timestamp in the video, delete any old borders present on the video player, and place a border for the detection selected. 
 ![image11](https://user-images.githubusercontent.com/83672002/217050640-c59f1d4c-437a-425b-8949-0c4f61daed6e.png)
 
+## Iteration 4
+Picture below shows navigating to sign up page to create an account. An email confirmation code is sent to enter after signing up.
+![image](https://user-images.githubusercontent.com/31895415/226490461-d1dec295-db75-416d-b7f8-6d9a12823ec6.png)
 
+Picture below shows navigating to sign in to your account. After signing in, the user will be redirected to the Dashboard.
+![image](https://user-images.githubusercontent.com/31895415/226490568-d5c1f5e3-7322-4af0-8e31-4e69b0347906.png)
 
+Picture below shows the dashboard, and the updated navigation abr after signing in.
+![image](https://user-images.githubusercontent.com/31895415/226490972-92d3cdbf-6481-41b3-bbaf-8878d2ec60bf.png)
 
+Pictures below show the user cases, and creating a new case via popup, and the updated list of cases after creating the new case. User can double click any case to view the next page.
+![image](https://user-images.githubusercontent.com/31895415/226491137-2c92bbea-59b0-4f6e-a0ee-58dd90d0682a.png)
+![image](https://user-images.githubusercontent.com/31895415/226491242-c6120d53-58f5-46b6-9966-4c2a91d285de.png)
+![image](https://user-images.githubusercontent.com/31895415/226491264-5e9ec567-a7bf-466a-a404-3b105ec36540.png)
 
+Picture below shows the case "demo case" files and action buttons.
+![image](https://user-images.githubusercontent.com/31895415/226491482-5cbdf61b-360e-4fec-af15-0274fc95b2ae.png)
 
+Pictures below show uploading new file, and updated file list (sometimes the user needs to refresh the page to update the file list).
+![image](https://user-images.githubusercontent.com/31895415/226491581-aab5a044-adbc-4c50-bb03-3a5e96460d29.png)
+![image](https://user-images.githubusercontent.com/31895415/226491591-68f61149-6fa9-48ea-ac8f-fc997abf6860.png)
 
+Pictures below show user starting new label detection and updated label detection job list after starting it. The user starts label detection by selecting the file, adding at least 1 of over 3000 accepted labels, and clicking submit, which redirects to the label detection job list popup.
+![image](https://user-images.githubusercontent.com/31895415/226491782-49bd4202-7caf-4344-a9b2-cf5b194d0d53.png)
+![image](https://user-images.githubusercontent.com/31895415/226491855-f19c521b-b4a7-4706-a7ed-0613011256c1.png)
+
+Pictures below show user opening view all label detections popup and selecting a label detection output to view, leading them to another page.
+![image](https://user-images.githubusercontent.com/31895415/226491898-c82bdd4f-bc49-4f8d-b3ac-f059a735b6eb.png)
+![image](https://user-images.githubusercontent.com/31895415/226492044-ddd22b6e-2fb3-4f98-8e0c-c8103fe095e7.png)
+
+Pictures below show user selecting labels to view on the labels table, and the video player showing the user which frame it's in in the video and bounding boxes of that label if applicable.
+![image](https://user-images.githubusercontent.com/31895415/226492122-22f22cd3-aab4-45ed-8e1a-9a5976db459c.png)
+![image](https://user-images.githubusercontent.com/31895415/226492163-062aa5cf-5858-4526-91aa-a2ff97fba5bc.png)
+![image](https://user-images.githubusercontent.com/31895415/226492177-f1b28503-6b96-4629-92ed-9d6c42aa5006.png)
+
+Pictures below show user signing out of the app, bringing them back to the sign in page.
+![image](https://user-images.githubusercontent.com/31895415/226492255-cb3549f7-5200-4ef9-a177-1d9dda279b77.png)
+![image](https://user-images.githubusercontent.com/31895415/226492282-eb824c38-2cb7-4f9b-af28-9d8dede0533c.png)
