@@ -13,6 +13,7 @@ Tech stack is:
 - Amazon S3 Bucket
 - Amazon SQS
 - Amazon SNS
+- Amazon Cognito
 - PostgreSQL
 
 ## Technologies Needed
@@ -25,13 +26,14 @@ Tech stack is:
 
 - No required IDE
 - Need a terminal to use git, npm, psql
+- Angular is the JS framework used for the frontend
 
 ## Cloning project and initial configurations
 
 1. In your terminal, move to desired folder location for the project. 
 2. run **'git clone https://github.com/jacobbishop1000/video-crime-miner'**
-3. move into the folder **'{project root}/video-crime-miner/node-video-crime-miner/'** and run **'npm run build'**
-3. move into the folder **'{project root}/video-crime-miner/angular-video-crime-miner/'** and run **'npm run build-site'**
+3. move into the folder **'{project root}/video-crime-miner/node-video-crime-miner/'** and run **'npm run build'** to start backend client
+3. move into the folder **'{project root}/video-crime-miner/angular-video-crime-miner/'** and run **'npm run build-site'** to start frontend client
 
 ## Folder Structure
 
@@ -39,6 +41,7 @@ Tech stack is:
     - **angular-video-crime-miner/node_modules/** contains node dependencies after npm install
     - **angular-video-crime-miner/src/**: source code for front-end site
         - **angular-video-crime-miner/src/app/**:  html, scss, and angular scripts for each of the site modules
+        - - **angular-video-crime-miner/src/assets/**:  a small .csv file containing all currently accepted Rekognition labels
 - **node-video-crime-miner**: source code for aws node clients, also contains configuration files for node/typescript
     - **node-video-crime-miner/resources/**: contains a few sample files for testing uploads to s3 buckets and video analysis
     - **node-video-crime-miner/src/**:
@@ -68,7 +71,7 @@ Typescript Configuration
 >*Both of these tsconfig files have additional tsconfig.spec.json and tsconfig.app.json. The contents of these files will be treated as if they were appended to the contents of tsconfig.json*
 
 Environment Variable Configuration
-- **node-video-crime-miner/.env
+- **node-video-crime-miner/.env**
     - contains important environment variables that cannot be stored in source code
 
 Jest Configuration
@@ -95,7 +98,7 @@ Jest Configuration
 
 ## Building a database
 
-1. Open a new terminal and move to the folder **{project root}/video-crime-miner/node-video-crime-miner/postgre/**
+1. Open a new terminal and move to the folder **{project root}/video-crime-miner/node-video-crime-miner/**
 
 2. run **'npm run remake-database'**, and there will be a locally stored and ran postgresql database
 
