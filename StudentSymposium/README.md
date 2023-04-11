@@ -18,7 +18,7 @@ We also presented to Prof. Xin Sun and Prof. Lan Lin. We also met Kevin, who we 
 - I thought the Symposium was an overall positive experience. We arrived at around 11:30am and were able to talk to the other members of the CS capstone about their projects and generally socialize, which was nice. It was nice presenting to the judges and to random people interested in what we were doing. We also got some nice feedback about making the software more ADA compliant with different color palette choices. Please, next year, don't make the students take pictures with strangers and get their names. It's awkward at best and rude at worst to ask that of someone when you just met them.
 
 ### Isaac ###
-- here
+- I found the symposium to be a cool experience. Our group got together near our usual class time, and setting up didn't take very long. It gave me a little bit of time to look at some of the other projects before the event actually started. It was cool to see what students in other departments were up to for their projects, and also how many of them have to learn a little bit of programming to accomplish their goals. I actually got a chance to talk to one of the gentlemen that won an award, whose table was right next to ours.
 
 ### Merghani ###
 - here
