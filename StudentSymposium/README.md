@@ -24,7 +24,7 @@ We also presented to Prof. Xin Sun and Prof. Lan Lin. We also met Kevin, who we 
 - here
 
 ### Eric ###
-- here
+- I thought the symposium was a fun unique experience. Setting up was easy thanks to the poster being printed. We set a time at 11:30 to pick up the poster and go to the Symposium. I was a bit late, cause i had to turn in a assignment. I was there to help set up which didnt take long. I had left to go to class but came back just in time. Seeing all the project and the different variety was cool and I learned a few things just by listening and reading. It was nice presenting to others and getting their feedback.
 
 # Team pictures
 - Note: Merghani showed up a bit late because he had class, and we didn't get a picture with him in it but he was there!
