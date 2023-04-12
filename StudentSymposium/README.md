@@ -21,7 +21,7 @@ We also presented to Prof. Xin Sun and Prof. Lan Lin. We also met Kevin, who we 
 - I found the symposium to be a cool experience. Our group got together near our usual class time, and setting up didn't take very long. It gave me a little bit of time to look at some of the other projects before the event actually started. It was cool to see what students in other departments were up to for their projects, and also how many of them have to learn a little bit of programming to accomplish their goals. I actually got a chance to talk to one of the gentlemen that won an award, whose table was right next to ours.
 
 ### Merghani ###
-- here
+- I thought that the symposium was overall a positve experience. It was a valuable experience to showcase our hard work and learning talk to a diverse audience and receive feedback from peers and experts. This opportunity helped me improve my communication and presentation skills. I gained valuable insights into different research projects and perspectives by getting a chance to see what students in other departments projects were. I was personally able to talk to other students of the CS departments about their project and ask them about their capstone experience overall.
 
 ### Eric ###
 - I thought the symposium was a fun unique experience. Setting up was easy thanks to the poster being printed. We set a time at 11:30 to pick up the poster and go to the Symposium. I was a bit late, cause i had to turn in a assignment. I was there to help set up which didnt take long. I had left to go to class but came back just in time. Seeing all the project and the different variety was cool and I learned a few things just by listening and reading. It was nice presenting to others and getting their feedback.
