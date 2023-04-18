@@ -86,6 +86,14 @@ Jest Configuration
 
 3. run **'npm run test'** to run Jest tests
     > if Jest gives errors, make sure your version of node is >= 19.0.0
+    >
+    > IMPORTANT: Make sure that you have a proper .env file with all required variables (seen below) as some will be needed for integration testing
+    > #Testing Postgres 
+    TEST_POSTGRES_USER=postgres
+TEST_POSTGRES_HOST=localhost
+TEST_POSTGRES_PASSWORD=password
+TEST_POSTGRES_DB=test-video-crime-miner
+TEST_POSTGRES_PORT=5432
 
 4. The terminal output displays test results with visual aids (green check marks, red x's, etc.)
 
