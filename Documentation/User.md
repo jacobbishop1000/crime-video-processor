@@ -25,6 +25,9 @@ Pictures below show uploading a new file, and updated file list (sometimes the u
 ![image](https://user-images.githubusercontent.com/31895415/232615462-90abad17-fef2-488e-b32a-28fe2faf5efa.png)
 ![image](https://user-images.githubusercontent.com/31895415/232615517-3ad47130-d2b3-4151-9400-a6968edba855.png)
 
+Picture below shows a user downloading their file back by clicking on it in the file list.
+![image](https://user-images.githubusercontent.com/31895415/232657777-722fa66a-8117-4247-b7a5-da7a1e6942d4.png)
+
 Pictures below show user editing their case, renaming it to a case that now includes arson as a crime.
 ![image](https://user-images.githubusercontent.com/31895415/232615864-60bf0483-1a0c-422f-99f6-d1caa70d2723.png)
 
