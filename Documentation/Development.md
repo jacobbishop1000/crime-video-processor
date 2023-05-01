@@ -141,3 +141,156 @@ DBPASSWORD=password`
 1. Open a new terminal and move to the folder **{project root}/video-crime-miner/node-video-crime-miner/**
 
 2. Execute command 'npm run lint', and your terminal should return any conflicts with the standard-with-typescript guide provided by the eslint module
+
+## Rekognition
+
+**How to recreate Rekognition service**
+
+**I. Create an IAM administrator User**
+    
+**To enable IAM Identity Center**
+
+1. Sign in to the AWS Management Console (https://console.aws.amazon.com/) as the account owner by choosing Root user and entering your AWS account email address. On the next page, enter your password.
+
+2. Open the IAM Identity Center console (https://console.aws.amazon.com/singlesignon)
+
+3. Under Enable IAM Identity Center, choose Enable.
+
+4. IAM Identity Center requires AWS Organizations. If you haven't set up an organization, you must choose whether to have AWS create one for you. Choose Create AWS organization to complete this process.
+
+    AWS Organizations automatically sends a verification email to the address that is associated with your management account. There might be a delay before you receive the verification email. Verify your email address within 24 hours.
+
+**Create an administrative permission set**
+
+1. Sign in to the AWS Management Console (https://console.aws.amazon.com/) as the account owner by choosing Root user and entering your AWS account email address. On the next page, enter your password
+2. Open the IAM Identity Center console. (https://console.aws.amazon.com/singlesignon)
+3. In the IAM Identity Center navigation pane, under Multi-account permissions, choose Permission sets.
+4. Choose Create permission set.
+5. For Step 1: Select permission set type, on the Select permission set type page, keep the default settings and choose Next. The default settings grant full access to AWS services and resources using the AdministratorAccess predefined permission set.
+6. For Step 2: Specify permission set details, on the Specify permission set details page, keep the default settings and choose Next. The default setting limits your session to one hour.
+7. For Step 3: Review and create, on the Review and create page, do the following:
+
+    a. Review the permission set type and confirm that it is AdministratorAccess.
+
+    b. Review the AWS managed policy and confirm that it is AdministratorAccess.
+
+    c. Choose Create.
+
+**Set up AWS account access for an administrative user**
+1. Sign in to the AWS Management Console (https://console.aws.amazon.com/) as the account owner by choosing Root user and entering your AWS account email address. On the next page, enter your password.
+
+2. Open the IAM Identity Center console (https://console.aws.amazon.com/singlesignon)
+
+3. In the navigation pane, under Multi-account permissions, choose AWS accounts.
+
+4. On the AWS accounts page, a tree view list of your organization appears. Select the check box next to the AWS account to which you want to assign administrative access. If you have multiple accounts in your organization, select the check box next to the management account.
+5. Choose Assign users or groups.
+6. For Step 1: Select users and groups, on the Assign users and groups to "AWS-account-name" page, do the following:
+
+    a. On the Users tab, select the user to whom you want to grant administrative permissions.
+
+    b. After you confirm that the correct user is selected, choose Next.
+7. For Step 2: Select permission sets, on the Assign permission sets to "AWS-account-name" page, under Permission sets, select the AdministratorAccess permission set.
+8. Choose Next. 
+9. For Step 3: Review and Submit, on the Review and submit assignments to "AWS-account-name" page, do the following:
+
+    a. Review the selected user and permission set.
+
+    b. After you confirm that the correct user is assigned to the AdministratorAccess permission set, choose Submit.
+
+**Sign in to the AWS access portal with your administrative credentials**
+1. Sign in to the AWS Management Console (https://console.aws.amazon.com/) as the account owner by choosing Root user and entering your AWS account email address. On the next page, enter your password.
+
+2. Open the IAM Identity Center console (https://console.aws.amazon.com/singlesignon)
+
+3. In the navigation pane, choose Dashboard.
+
+4. On the Dashboard page, under Settings summary, copy the AWS access portal URL.
+
+5. Open a separate browser, paste the AWS access portal URL that you copied in Step 4, and press Enter.
+
+6. Sign in by using either of the following:
+
+    * sign in by using the user name that you specified when you created the user and the new password that you specified for the user. For more information, see Use the default directory and create a user in IAM Identity Center. (https://docs.aws.amazon.com/singlesignon/latest/userguide/get-started-use-identity-center-directory-create-user-in-identity-center.html)
+
+7. After you are signed in, an AWS account icon appears in the portal.
+
+8. When you select the AWS account icon, the account name, account ID, and email address associated with the account appear.
+
+9. Choose the name of the account to display the AdministratorAccess permission set, and select the Management Console link to the right of AdministratorAccess.
+
+    * When you sign in, the name of the permission set to which the user is assigned appears as an available role in the AWS access portal. Because you assigned this user to the AdministratorAccess permission set, the role will appear in the AWS access portal as: AdministratorAccess/username
+
+10. If you are redirected to the AWS Management Console, you successfully finished setting up administrative access to the AWS account.
+
+11. Switch to the browser that you used to sign into the AWS Management Console and set up IAM Identity Center, and sign out from your AWS account root user.
+
+**II. Creating Service Role for SNS**
+
+1. Open the IAM Identity Center console (https://console.aws.amazon.com/singlesignon)
+
+2. Navigate to the Roles tab, under Access Management
+
+3. Create a new Service Role using the JSON below:
+
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "sns:Publish"
+            ],
+            "Resource": "arn:aws:sns:*:*:AmazonRekognition*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "kinesis:PutRecord",
+                "kinesis:PutRecords"
+            ],
+            "Resource": "arn:aws:kinesis:*:*:stream/AmazonRekognition*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "kinesisvideo:GetDataEndpoint",
+                "kinesisvideo:GetMedia"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+```
+
+4. After you are finished, take note of the arn of the service role
+
+**III. Adding inline policy to IAM User**
+
+1. Sign in to the AWS Management Console and open the IAM console at https://console.aws.amazon.com/iam/
+
+2. In the navigation pane, choose Users
+
+3. In the list, choose the name of the user to embed a policy in.
+
+4. Choose the Permissions tab.
+
+5. Choose Add permissions and then choose Add inline policy.
+
+6. In the JSON tab, use the policy below:
+
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "MySid",
+            "Effect": "Allow",
+            "Action": "iam:PassRole",
+            "Resource": "arn:Service role ARN created in previous section"
+        }
+    ]
+}
+```
+
